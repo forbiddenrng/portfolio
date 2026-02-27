@@ -1,92 +1,65 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Antoni Gawron",
+  title: "Software Engineer",
+  description: "Portfolio website of Antoni Gawron",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "antek.gawron@gmail.com",
+    linkedin: "https://www.linkedin.com/in/antoni-gawron-213057302",
+    github: "https://github.com/forbiddenrng",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: 
+    "I'm a software engineer focused on fullstack/backend development. I used to work a lot in React and Next.js creating SPA, but now I'm focuesd on mastering Python. I'm also a final-year computer science student at University of Gdańsk and an apprentice at OBR CTM S.A.",
+  skills: ["JavaScript", "Python", "REST APIs", "SQL", "Linux", "Git", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "JobMatch.AI",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "AI-powered platform for creating well fitted CVs and cover letters based on user profile, job offer and company description. Integrated with external job posting API for integrity.",
+      link: "https://github.com/forbiddenrng/projekt-zespolowy/tree/develop",
+      skills: ["FastAPI", "Next.js", "Auth0"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Election emotions analysis ",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Analyzed emotions and content in tweets about two major candidates in 2025 Polish presidential elections. Gathered 14,000+ tweets from election campaign with custom scrape strategy. Created advanced scientific raport",
+      link: "https://github.com/forbiddenrng/projekt-io/tree/master",
+      skills: ["Python", "NLP", "Scraping", "HuggingFace"],
     },
     {
-      name: "ExtensionKit",
+      name: "REST API for music albums",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "The Albums project is a web application for managing a music catalog. The application enables organizing and viewing information about albums, songs, performers, and music genres. The system supports CRUD operations on all main domain entities, full-text search, filtering, and sorting of albums. The architecture is based on REST API and MVC patterns using Spring Boot.",
+      link: "https://github.com/forbiddenrng/albums/tree/main",
+      skills: ["Java", "Spring Boot", "Hibernate"],
+    },
+    {
+      name: "Achievement game tracker",
+      description:
+        "Created CI/CD workflows for both GitHub and GitLab that builds, tests, run checks and builds Docker image. Used Kubernetes with Kustomize to create overlays for three different stages: dev, test and prod. Used Argo CD to sync with repo and deploy dev environment",
+      link: "https://github.com/forbiddenrng/game-tracker-devops/tree/main",
+      skills: ["CI/CD", "Docker", "Kubernetes", "GitOps"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "OBR CTM",
+      title: "Apprentice",
+      dateRange: "Jul 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Processed, analyzed and visualized marine vessels data",
+        "Refactored Python function to Cython to reduce runtime",
+        "Created scripts for automated installation & configuration of Debian",
       ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University Of Gdańsk",
+      degree: "Practical Computer Science",
+      dateRange: "2023 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
